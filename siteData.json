@@ -11,7 +11,7 @@
         "poh-jing-choon": "Poh Jing Choon",
         "clarence": "Clarence",
         "daron-oh": "Daron Oh",
-        "james-doe": "James Doe"
+        "nicholas-lam": "Nicholas Lam"
       },
       "headingKeywords": {}
     },
@@ -153,7 +153,15 @@
     },
     {
       "src": "team/daronoh.md",
-      "title": "John Doe's Project Portfolio Page",
+      "title": "Nicholas Lam's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/niclammm.md",
+      "title": "Nicholas Lam's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
