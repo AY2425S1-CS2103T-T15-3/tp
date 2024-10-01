@@ -9,7 +9,7 @@
         "project-team": "Project team",
         "john-doe": "John Doe",
         "poh-jing-choon": "Poh Jing Choon",
-        "johnny-doe": "Johnny Doe",
+        "clarence": "Clarence",
         "daron-oh": "Daron Oh",
         "james-doe": "James Doe"
       },
@@ -137,7 +137,15 @@
     },
     {
       "src": "team/choonzies.md",
-      "title": "John Doe's Project Portfolio Page",
+      "title": "Clarence's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/clarud.md",
+      "title": "Clarence's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
