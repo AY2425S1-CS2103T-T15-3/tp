@@ -114,6 +114,7 @@
         "adding-a-person-add": "Adding a person: add",
         "listing-all-persons-list": "Listing all persons : list",
         "editing-a-person-edit": "Editing a person : edit",
+        "viewing-a-patient-s-details-view": "Viewing a patient's details: view",
         "searching-patients-by-field-find": "Searching patients by field: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "adding-an-appointment-to-a-person-make-appt": "Adding an Appointment to a person: make_appt",
