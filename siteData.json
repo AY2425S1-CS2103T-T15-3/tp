@@ -116,6 +116,8 @@
         "editing-a-person-edit": "Editing a person : edit",
         "searching-patients-by-field-find": "Searching patients by field: find",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "adding-an-appointment-to-a-person-make-appt": "Adding an Appointment to a person: make_appt",
+        "list-all-person-appointment-schedule-all": "List all person appointment: schedule_all",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
