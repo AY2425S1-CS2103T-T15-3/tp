@@ -105,6 +105,7 @@
     },
     {
       "src": "UserGuide.md",
+      "title": "User Guide",
       "headings": {
         "wardwatch-user-guide": "WardWatch User Guide",
         "table-of-contents": "Table of Contents",
@@ -120,12 +121,14 @@
         "deleting-a-person-delete": "Deleting a person : delete",
         "adding-an-appointment-to-a-person-make-appt": "Adding an Appointment to a person: make_appt",
         "deleting-an-appointment-from-a-person-del-appt": "Deleting an Appointment from a person: del_appt",
-        "list-all-person-appointment-schedule-all": "List all person appointment: schedule_all",
+        "show-appointments-on-a-specific-date-schedule-date": "Show appointments on a specific date: schedule_date",
+        "list-all-patient-appointment-schedule-all": "List all patient appointment: schedule_all",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
         "faq": "FAQ",
+        "glossary": "Glossary",
         "known-issues": "Known issues",
         "command-summary": "Command summary"
       },
