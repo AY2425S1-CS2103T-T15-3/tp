@@ -50,7 +50,7 @@ with(this){return _c('h3',{attrs:{"id":"adding-a-person-add"}},[_v("Adding a per
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/NAME i/ID w/WARD d/DIAGNOSIS m/MEDICATION")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ID")]),_v(" must be in the form of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PXXXXX")]),_v(" where "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("XXXXX")]),_v(" is a 5 digit integer.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ID")]),_v(" of patients must be unique.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Ward")]),_v(" must take the form of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("WX")]),_v(" where "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("X")]),_v(" is an integer.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ID")]),_v(" must be in the form of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PXXXXX")]),_v(" where "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("XXXXX")]),_v(" is a 5 digit integer.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ID")]),_v(" of patients must be unique.")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Doe i/P12345 w/A1 d/TYPE 1 DIABETES m/METFORMIN ")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/Nicky Lam i/P17777 w/A5 d/Gastritis m/Proton pump inhibitors ")])])])}
@@ -281,6 +281,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 5 Nov 2024, 0:09:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 5 Nov 2024, 0:41:42 GMT+8]")])])])}
 }];
   
