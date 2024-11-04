@@ -218,31 +218,6 @@ public class EditCommand extends Command {
             return Optional.ofNullable(medication);
         }
 
-        /*
-        /**
-         * Sets {@code tags} to this object's {@code tags}.
-         * A defensive copy of {@code tags} is used internally.
-         */
-        /*
-        public void setTags(Set<Tag> tags) {
-            this.tags = (tags != null) ? new HashSet<>(tags) : null;
-        }
-
-         */
-
-        /*
-        /**
-         * Returns an unmodifiable tag set, which throws {@code UnsupportedOperationException}
-         * if modification is attempted.
-         * Returns {@code Optional#empty()} if {@code tags} is null.
-         */
-        /*
-        public Optional<Set<Tag>> getTags() {
-            return (tags != null) ? Optional.of(Collections.unmodifiableSet(tags)) : Optional.empty();
-        }
-
-         */
-
 
         @Override
         public boolean equals(Object other) {
@@ -261,13 +236,6 @@ public class EditCommand extends Command {
                     && Objects.equals(ward, otherEditPersonDescriptor.ward)
                     && Objects.equals(diagnosis, otherEditPersonDescriptor.diagnosis)
                     && Objects.equals(medication, otherEditPersonDescriptor.medication);
-            /*
-                    && Objects.equals(phone, otherEditPersonDescriptor.phone)
-                    && Objects.equals(email, otherEditPersonDescriptor.email)
-                    && Objects.equals(address, otherEditPersonDescriptor.address)
-                    && Objects.equals(tags, otherEditPersonDescriptor.tags);
-
-            */
         }
 
         @Override
@@ -278,13 +246,6 @@ public class EditCommand extends Command {
                     .add("ward", ward)
                     .add("diagnosis", diagnosis)
                     .add("medication", medication)
-                    /*
-                    .add("phone", phone)
-                    .add("email", email)
-                    .add("address", address)
-                    .add("tags", tags)
-
-                     */
                     .toString();
         }
     }
