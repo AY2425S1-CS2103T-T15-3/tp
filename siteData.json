@@ -63,7 +63,13 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-efforts": "Appendix: Efforts",
+        "logic-parser": "Logic (Parser)",
+        "logic-command": "Logic (Command)",
+        "model": "Model",
+        "storage": "Storage",
+        "ui": "UI"
       },
       "headingKeywords": {}
     },
