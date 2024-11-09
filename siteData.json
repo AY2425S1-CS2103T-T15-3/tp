@@ -52,6 +52,7 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "add-patient-feature": "Add Patient Feature",
         "add-appointment-feature": "Add Appointment Feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "planned-enhancements": "Planned Enhancements",
