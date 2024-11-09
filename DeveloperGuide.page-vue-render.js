@@ -23,7 +23,7 @@ with(this){return _c('p',[_v("This project is based on the AddressBook-Level3 pr
 with(this){return _c('h2',{attrs:{"id":"setting-up-getting-started"}},[_c('strong',[_v("Setting up, getting started")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-getting-started","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Refer to the guide "),_c('a',{attrs:{"href":"/tp/SettingUp.html"}},[_c('em',[_v("Setting up and getting started")])]),_v(".")])}
+with(this){return _c('p',[_v("Refer to the guide "),_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/SettingUp.html"}},[_c('em',[_v("Setting up and getting started")])]),_v(".")])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"design"}},[_c('strong',[_v("Design")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#design","onclick":"event.stopPropagation()"}})])}
@@ -38,7 +38,7 @@ with(this){return _c('p',[_v("The "),_c('em',[_c('strong',[_v("Architecture Diag
 with(this){return _c('p',[_c('strong',[_v("Main components of the architecture")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" (consisting of classes "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/Main.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" and "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/MainApp.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainApp")])]),_v(") is in charge of the app launch and shut down.")])}
+with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" (consisting of classes "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/Main.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" and "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/MainApp.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainApp")])]),_v(") is in charge of the app launch and shut down.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("At app launch, it initializes the other components in the correct sequence, and connects them up with each other.")]),_v(" "),_c('li',[_v("At shut down, it shuts down the other components and invokes cleanup methods where necessary.")])])}
@@ -65,13 +65,13 @@ with(this){return _c('p',[_v("For example, the "),_c('code',{pre:true,attrs:{"cl
 with(this){return _c('h3',{attrs:{"id":"ui-component"}},[_v("UI component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#ui-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The "),_c('strong',[_v("API")]),_v(" of this component is specified in "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/ui/Ui.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Ui.java")])])])}
+with(this){return _c('p',[_v("The "),_c('strong',[_v("API")]),_v(" of this component is specified in "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/ui/Ui.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Ui.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The UI consists of a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")]),_v(" that is made up of parts e.g."),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CommandBox")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ResultDisplay")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PersonListPanel")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("StatusBarFooter")]),_v(" etc. All these, including the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")]),_v(", inherit from the abstract "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UiPart")]),_v(" class which captures the commonalities between classes that represent parts of the visible GUI.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component uses the JavaFx UI framework. The layout of these UI parts are defined in matching "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".fxml")]),_v(" files that are in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("src/main/resources/view")]),_v(" folder. For example, the layout of the "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/ui/MainWindow.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")])]),_v(" is specified in "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/resources/view/MainWindow.fxml"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow.fxml")])])])}
+with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component uses the JavaFx UI framework. The layout of these UI parts are defined in matching "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".fxml")]),_v(" files that are in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("src/main/resources/view")]),_v(" folder. For example, the layout of the "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/ui/MainWindow.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")])]),_v(" is specified in "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/resources/view/MainWindow.fxml"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow.fxml")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component,")])}
@@ -83,7 +83,7 @@ with(this){return _c('ul',[_c('li',[_v("executes user commands using the "),_c('
 with(this){return _c('h3',{attrs:{"id":"logic-component"}},[_v("Logic component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#logic-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/logic/Logic.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/logic/Logic.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Here's a (partial) class diagram of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic")]),_v(" component:")])}
@@ -113,7 +113,7 @@ with(this){return _c('ul',[_c('li',[_v("When called upon to parse a user command
 with(this){return _c('h3',{attrs:{"id":"model-component"}},[_v("Model component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#model-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/model/Model.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/model/Model.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" component,")])}
@@ -125,7 +125,7 @@ with(this){return _c('ul',[_c('li',[_v("stores the address book data i.e., all "
 with(this){return _c('h3',{attrs:{"id":"storage-component"}},[_v("Storage component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#storage-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/storage/Storage.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103T-T15-3/tp/blob/master/src/main/java/seedu/address/storage/Storage.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage")]),_v(" component,")])}
@@ -248,7 +248,7 @@ with(this){return _c('p',[_v("Currently, there is no way to tell when a patient 
 with(this){return _c('h2',{attrs:{"id":"documentation-logging-testing-configuration-dev-ops"}},[_c('strong',[_v("Documentation, logging, testing, configuration, dev-ops")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#documentation-logging-testing-configuration-dev-ops","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('a',{attrs:{"href":"/tp/Documentation.html"}},[_v("Documentation guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"/tp/Testing.html"}},[_v("Testing guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"/tp/Logging.html"}},[_v("Logging guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"/tp/Configuration.html"}},[_v("Configuration guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"/tp/DevOps.html"}},[_v("DevOps guide")])])])}
+with(this){return _c('ul',[_c('li',[_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/Documentation.html"}},[_v("Documentation guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/Testing.html"}},[_v("Testing guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/Logging.html"}},[_v("Logging guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/Configuration.html"}},[_v("Configuration guide")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://ay2425s1-cs2103t-t15-3.github.io/tp/DevOps.html"}},[_v("DevOps guide")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix"}},[_c('strong',[_v("Appendix")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix","onclick":"event.stopPropagation()"}})])}
@@ -332,7 +332,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Doctor submits new patient infor
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The information format entered is invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. AddressBook shows an invalid format error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The information format entered is invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. WardWatch shows an invalid format error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Search a patient")])])}
@@ -347,7 +347,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Doctor searches for patients")])
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The search field is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AddressBook shows an invalid field error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. There is no patient that matches the search")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. AddressBook shows that there is no matching patient.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The search field is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. WardWatch shows an invalid field error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. There is no patient that matches the search")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. WardWatch shows that there is no matching patient.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - View patient")])])}
@@ -467,7 +467,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Doctor submits new notes for a c
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. Patient Notes format is invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. WardWatch shows a invalid note description error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. Patient Notes format is invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. WardWatch shows an invalid note description error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC13 - delete notes to a specific patient")])])}
@@ -641,6 +641,6 @@ with(this){return _c('h3',{attrs:{"id":"ui"}},[_v("UI"),_c('a',{staticClass:"fa 
 with(this){return _c('ol',[_c('li',[_v("UI Design required good understanding and identification of the relevant dependencies on the corresponding .fxml and .css files.")]),_v(" "),_c('li',[_v("To restructure and customise the UI, a firm understanding of UI elements such as the HBox, VBox and Stackpanes is necessary to layout the UI elements according. There was particularly a struggle understanding the effects of the growing Hbox and Vbox, as the space occupied is unexpected.")]),_v(" "),_c('li',[_v("Choice or colour to make the app aesthetic is also non-trivial as it is difficult to find matching colours that are aesthetic.")]),_v(" "),_c('li',[_v("The setting of result boxes also required consideration, as too long or short may cause data to not be represented clearly, due to the text overflowing. It is also a tradeoff for space with the other elements.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 1:07:36 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 1:29:09 GMT+8]")])])])}
 }];
   
