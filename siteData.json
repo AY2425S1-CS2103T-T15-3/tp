@@ -54,6 +54,7 @@
         "implementation": "Implementation",
         "add-patient-feature": "Add Patient Feature",
         "add-appointment-feature": "Add Appointment Feature",
+        "schedule-date-feature": "Schedule Date Feature",
         "planned-enhancements": "Planned Enhancements",
         "last-edited-functionality": "Last edited functionality",
         "make-and-quot-index-does-not-exist-and-quot-error-message-more-specific": "Make &quot;Index does not exist&quot; error message more specific",
