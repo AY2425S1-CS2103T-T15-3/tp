@@ -797,7 +797,7 @@ with(this){return _c('p',[_c('strong',[_v("Data Interaction Between New and Exis
 with(this){return _c('p',[_c('strong',[_v("UI Space Constraints")]),_c('br'),_v("\nDesigning a user-friendly interface within limited screen space was a significant challenge. We needed to balance providing sufficient information with maintaining a streamlined layout. After several iterations, we finalized a design that offers essential data without cluttering the interface.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Implementation new fields")]),_c('br'),_v("\nThe addition of new fields such as diagnosis and medication functionalities were more intricate than anticipated. These features required careful planning to account for various scenarios, recognising the balance between restricting the user input to overstricting. Regular discussions helped to streamline our ideas tasks and address any arising issues efficiently.")])}
+with(this){return _c('p',[_c('strong',[_v("Implementation of new fields")]),_c('br'),_v("\nThe addition of new fields such as diagnosis and medication functionalities were more intricate than anticipated. These features required careful planning to account for various scenarios, recognising the balance between restricting the user input to overstricting. Regular discussions helped to streamline our ideas tasks and address any arising issues efficiently.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Implementation of Appointments")]),_c('br'),_v("\nIn particular, we faced difficulties when attempting to implement the schedule as an "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ObservableList<Person>")]),_v(" as it not only had to be filtered, but also had to be sorted. Having to understand the API of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ObservableList")]),_v(" provided by JavaFX was challenging. We also had to factor in creating the class "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AppointmentContainsDatePredicate")]),_v(" that implements "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Predicate<Person>")]),_v(" such that the list can actually be filtered, which brought about additional complexity.")])}
@@ -812,6 +812,6 @@ with(this){return _c('p',[_c('strong',[_v("Debugging and Testing")]),_c('br'),_v
 with(this){return _c('h2',{attrs:{"id":"achievements"}},[_v("Achievements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#achievements","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 3:25:33 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 3:37:27 GMT+8]")])])])}
 }];
   
