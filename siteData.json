@@ -54,7 +54,6 @@
         "implementation": "Implementation",
         "add-patient-feature": "Add Patient Feature",
         "add-appointment-feature": "Add Appointment Feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "planned-enhancements": "Planned Enhancements",
         "last-edited-functionality": "Last edited functionality",
         "make-and-quot-index-does-not-exist-and-quot-error-message-more-specific": "Make &quot;Index does not exist&quot; error message more specific",
@@ -82,11 +81,12 @@
         "showing-appointments-on-a-particular-date": "Showing appointments on a particular date",
         "showing-all-appointments": "Showing all appointments",
         "appendix-efforts": "Appendix: Efforts",
-        "logic-parser": "Logic (Parser)",
-        "logic-command": "Logic (Command)",
-        "model": "Model",
-        "storage": "Storage",
-        "ui": "UI"
+        "complexity-and-scope": "Complexity and Scope",
+        "effort-invested": "Effort Invested",
+        "improvements-to-existing-features": "Improvements to Existing Features",
+        "newly-added-features": "Newly Added Features",
+        "challenges-encountered": "Challenges Encountered",
+        "achievements": "Achievements"
       },
       "headingKeywords": {}
     },
